@@ -60,7 +60,7 @@ sudo apt-get remove --purge apache2
 #
 Ahora instalemos LEMP con Nginx
 
-sudo aptitude install nginx mariadb-server mariadb-client php-mysqli php7.1-common php7.1-readline php7.1-fpm php7.1-cli php7.1-gd php7.1-mysql php7.1-mcrypt php7.1-curl php7.1-mbstring php7.1-opcache php7.1-json -y php7.1-zip php-xml apt-transport-https lsb-release ca-certificates wget
+sudo aptitude install nginx mariadb-server mariadb-client php-mysqli php7.2-common php7.2-readline php7.2-fpm php7.2-cli php7.2-gd php7.2-mysql php7.2-curl php7.2-mbstring php7.2-opcache php7.2-json php7.2-zip php-xml apt-transport-https lsb-release ca-certificates wget -y
 
 
 #
